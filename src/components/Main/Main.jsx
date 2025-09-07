@@ -42,7 +42,7 @@ const Main = () => {
                         </div>
                     </div>
                     <p className="bottom-info">
-                        Gemini may display inaccurate or offensive information that doesn't represent Google. 
+                        Gemini may display inaccurate or offensive information that doesn't represent Google.
                     </p>
                 </div>
             </div>

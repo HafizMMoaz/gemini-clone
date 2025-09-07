@@ -1,1 +1,2 @@
-const apikey = import.meta.env.API_KEY
+const apikey = import.meta.env.VITE_API_KEY
+export default apikey
