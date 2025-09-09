@@ -33,19 +33,27 @@
 .sidebar .recent {
     display: flex;
     flex-direction: column;
+    max-height: 60vh;
+    overflow-y: scroll;
+    animation: fadeIn 0.5s ease-in;
+}
+
+
+
+.sidebar .recent::-webkit-scrollbar {
+    display: none;
 }
 
 .sidebar .recent-title {
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .sidebar .recent-entry {
     display: flex;
     align-items: start;
     gap: 10px;
-    padding: 20px;
-    padding-right: 40px;
+    padding: 15px;
     border-radius: 50px;
     color: #282828;
     cursor: pointer;
@@ -62,4 +70,10 @@
 
 .sidebar .bottom-item {
     padding-right: 20px;
+}
+
+@media (max-width: 600px) {
+    .sidebar {
+        display: none;
+    }
 }
