@@ -64,7 +64,7 @@ npm install
 ```bash
 VITE_GEMINI_API_KEY=your_google_gemini_api_key_here
 ```
-    Note: Do not commit this file to source control.
+Note: Do not commit this file to source control.
 
 4. Run development server
 
